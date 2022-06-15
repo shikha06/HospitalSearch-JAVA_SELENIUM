@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <test name="ChromeTest(failed)(failed)(failed)(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.selenium.drivercls.driver">
+        <methods>
+          <include name="searching"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="filtering"/>
+        </methods>
+      </class> <!-- com.selenium.drivercls.driver -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed)(failed)(failed) -->
+  <test name="firefoxtest(failed)(failed)(failed)(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.selenium.drivercls.driver">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="filtering"/>
+        </methods>
+      </class> <!-- com.selenium.drivercls.driver -->
+    </classes>
+  </test> <!-- firefoxtest(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="firefoxtest(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.selenium.drivercls.driver">
+        <methods>
+          <include name="stop"/>
+          <include name="stop"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifylogin"/>
+        </methods>
+      </class> <!-- com.selenium.drivercls.driver -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
